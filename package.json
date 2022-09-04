@@ -1,0 +1,19 @@
+{
+  "name": "dionysos5.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dionysos5/Dionysos5.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dionysos5/Dionysos5.github.io/issues"
+  },
+  "homepage": "https://github.com/Dionysos5/Dionysos5.github.io#readme"
+}
