@@ -44,7 +44,7 @@
     <div class="container mx-auto px-6">
       <div class="h-screen flex items-center">
         <div class="w-full">
-          <h2 class="text-center text-3xl m-4">My latest projects</h2>
+          <h2 class="text-center text-3xl m-4 p-4">My latest projects</h2>
           <!-- Cards with image and button-->
           <div class="flex flex-wrap -mx-4">
             <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
@@ -95,10 +95,45 @@
                 </div>
               </div>
             </div>
-           
-            </div>
+          </div>
+          <!-- see more -->
+          <div class="flex justify-center mt-8">
+            <a href="#" class="bg-gray-800 text-white px-4 py-2 rounded-md text-sm font-medium">See More</a>
   </section>
-  <section></section>
+  <!-- contact section -->
+  <section>
+    <div class="container mx-auto px-6">
+      <div class="h-screen flex items-center">
+        <div class="w-full">
+          <h2 class="text-center text-3xl m-4 p-4">Contact Me</h2>
+          <div class="flex justify-center">
+            <div class="w-full max-w-lg">
+              <form action="#" class="bg-gray-800 rounded-lg px-4 p-4">
+                <div class="mb-4">
+                  <label for="name" class="sr-only">Name</label>
+                  <input type="text" name="name" id="name" placeholder="Your Name"
+                    class="bg-gray-700 border-2 w-full p-4 rounded-lg" />
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="sr-only">Email</label>
+                  <input type="text" name="email" id="email" placeholder="Your Email"
+                    class="bg-gray-700 border-2 w-full p-4 rounded-lg" />
+                </div>
+                <div class="mb-4">
+                  <label for="message" class="sr-only">Message</label>
+                  <textarea name="message" id="message" cols="30" rows="4" placeholder="Your Message"
+                    class="bg-gray-700 border-2 w-full p-4 rounded-lg"></textarea>
+                </div>
+                <div>
+                  <button type="submit"
+                    class="bg-gray-700 text-white px-4 py-3 rounded font-medium w-full">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 
 <footer>
